@@ -74,7 +74,7 @@ class RedisRegistry implements SPI
             $node = new ServerNode();
             $node->setName($serverName);
             $node->setHost($serverInfo[self::HOST]);
-            $node->setPort($serverInfo[self::PORT]);
+            $node->setPort(intval($serverInfo[self::PORT]));
             return $node;
         }
 
