@@ -2,7 +2,12 @@
   "name": "swooless/registry",
   "description": "server registry",
   "type": "library",
-  "license": "TIM",
+  "keywords": [
+    "swoole",
+    "thrift",
+    "registry"
+  ],
+  "license": "MIT",
   "authors": [
     {
       "name": "傅双亮",
